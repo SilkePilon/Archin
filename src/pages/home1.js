@@ -1,3 +1,4 @@
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import React from "react";
 import Loader from "../components/common/Loader";
 import Menu from "../components/home1/Menu";
@@ -45,6 +46,7 @@ function Home1() {
             <Chat />
           </main>
           <Footer />
+          <SpeedInsights />
         </div>
       </body>
     </>
