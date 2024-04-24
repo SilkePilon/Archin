@@ -26,7 +26,7 @@ function Navbar() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/innerpages/services">
+              <a className="nav-link" href="./pages/services.js">
                 Services
               </a>
             </li>
