@@ -1,5 +1,4 @@
 import "./App.css";
-import { HashRouter } from "react-router-dom";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 // import Home from './pages';
 import Home1 from "./pages/home1";
@@ -24,8 +23,7 @@ import SingleProject2 from "./pages/innerpages/single_project2";
 
 function App() {
   return (
-    <HashRouter>
-      {/* <Router> */}
+    <Router>
       <Routes>
         <Route index element={<Home1 />} />
         {/* <Route path="/home1" element={<Home1 />} /> */}
@@ -51,8 +49,7 @@ function App() {
           element={<SingleProject2 />}
         /> */}
       </Routes>
-      {/* </Router> */}
-    </HashRouter>
+    </Router>
   );
 }
 
