@@ -5,11 +5,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg navbar-dark inner-navbar-style1">
       <div className="container-fluid">
         <a className="navbar-brand me-lg-5" href="#">
-          <img
-            src="/innerpages/assets/img/logo_wh.png"
-            alt=""
-            className="logo"
-          />
+          <img src="/innerpages/assets/img/logo.png" alt="" className="logo" />
         </a>
         <button
           className="navbar-toggler"
@@ -30,22 +26,22 @@ function Navbar() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="">
+              <a className="nav-link" href="./innerpages/services">
                 Services
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="./innerpages/about">
                 About
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="./innerpages/portfolio">
                 Gallery
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="./innerpages/contact">
                 Contact
               </a>
             </li>

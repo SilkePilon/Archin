@@ -26,22 +26,22 @@ function Navbar() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="./pages/services.js">
+              <a className="nav-link" href="./innerpages/services">
                 Services
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/innerpages/about">
+              <a className="nav-link" href="./innerpages/about">
                 About
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/innerpages/portfolio">
+              <a className="nav-link" href="./innerpages/portfolio">
                 Gallery
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/innerpages/contact">
+              <a className="nav-link" href="./innerpages/contact">
                 Contact
               </a>
             </li>

@@ -113,10 +113,10 @@ function Footer() {
             <div className="col-lg-6">
               <div className="foot-links mt-4 mt-lg-0">
                 <a href="/"> Home </a>
-                <a href="./pages/innerpages/services"> Services </a>
-                <a href="./pages/innerpages/about"> About </a>
-                <a href="./pages/innerpages/portfolio"> Gallery </a>
-                <a href="./pages/innerpages/contact"> Contact </a>
+                <a href="./innerpages/services"> Services </a>
+                <a href="./innerpages/about"> About </a>
+                <a href="./innerpages/portfolio"> Gallery </a>
+                <a href="./innerpages/contact"> Contact </a>
               </div>
             </div>
           </div>
