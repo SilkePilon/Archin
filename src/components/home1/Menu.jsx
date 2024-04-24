@@ -15,22 +15,22 @@ function Menu() {
                 </a>
               </li>
               <li>
-                <a href="/innerpages/services" className="main_link">
+                <a href="/services" className="main_link">
                   Services
                 </a>
               </li>
               <li>
-                <a href="/innerpages/about" className="main_link">
+                <a href="/about" className="main_link">
                   About
                 </a>
               </li>
               <li>
-                <a href="/innerpages/portfolio" className="main_link">
+                <a href="/portfolio" className="main_link">
                   Gallery
                 </a>
               </li>
               <li>
-                <a href="/innerpages/contact" className="main_link">
+                <a href="/contact" className="main_link">
                   Contact
                 </a>
               </li>

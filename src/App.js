@@ -37,11 +37,11 @@ function App() {
         <Route path="/home7_landscape_360" element={<Home7360 />} />
         <Route path="/home8_portfolio" element={<Home8 />} />
         <Route path="/home10" element={<Home10 />} /> */}
-        <Route path="/innerpages/about" element={<AboutPage />} />
+        <Route path="/about" element={<AboutPage />} />
         {/* <Route path="/innerpages/blog" element={<BlogPage />} /> */}
-        <Route path="/innerpages/contact" element={<ContactPage />} />
-        <Route path="/innerpages/portfolio" element={<PortfolioPage />} />
-        <Route path="/innerpages/services" element={<ServicesPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/portfolio" element={<PortfolioPage />} />
+        <Route path="/services" element={<ServicesPage />} />
         {/* <Route path="/innerpages/single_post" element={<SinglePost />} />
         <Route path="/innerpages/single_project" element={<SingleProject />} />
         <Route
