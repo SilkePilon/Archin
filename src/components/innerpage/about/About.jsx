@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function About() {
   return (
@@ -20,7 +20,7 @@ function About() {
                   </defs>
                   <text>
                     <textPath xlinkHref="#textcircle" textLength="900">
-                      Landscape design - archin Studio -
+                      Comfy Homz Solutions
                     </textPath>
                   </text>
                 </svg>
@@ -35,15 +35,15 @@ function About() {
           <div className="col-lg-5">
             <div className="info wow fadeInUp slow" data-wow-delay="0.2s">
               <div className="text fsz-25 fw-500 mb-20">
-                Archin Design Studio is a landscape design and construction firm
-                based in Portland, Oregon that creates residential outdoor
-                living spaces and gardens. We strive to create meaningful spaces
-                that fulfill our clients visions and function great for years to
-                come.
+                Welcome to Comfy Homz Solutions, where we've been transforming
+                houses into smart homes for over a decade. With our expertise in
+                home automation, home theaters, WiFi networking, and CCTV
+                systems, we bring cutting-edge solutions to elevate your living
+                experience.
               </div>
               <div className="text fsz-25 fw-500 mb-20">
-                Our mission is on bringing a balance of healthy, beautiful
-                living spaces to our clients.
+                Currently Serving: Delhi NCR, Punjab, Haryana, Gujarat,
+                Hyderabad, Kangpur.
               </div>
             </div>
           </div>
@@ -54,14 +54,14 @@ function About() {
                 data-wow-delay="0.4s"
               >
                 <h2 className="numb"> 95% </h2>
-                <small> Clients Satisfied and repeating </small>
+                <small> Returning Clients </small>
               </div>
               <div
                 className="number-card wow zoomIn slow"
                 data-wow-delay="0.6s"
               >
-                <h2 className="numb"> 125% </h2>
-                <small> projects done </small>
+                <h2 className="numb"> 350+ </h2>
+                <small> Homes Automated </small>
               </div>
             </div>
           </div>

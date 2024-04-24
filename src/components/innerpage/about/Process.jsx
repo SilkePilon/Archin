@@ -1,13 +1,13 @@
-import React from 'react';
+import React from "react";
 
 function Process() {
   return (
     <section className="tc-process-style2">
       <div className="container">
         <h2 className="fsz-45 fw-500 mb-80 text-center">
-          Our Approach
+          Our{" "}
           <span className="sub-font fst-italic color-orange1 fw-400">
-            process
+            Process
           </span>
         </h2>
         <div className="content">
@@ -23,7 +23,7 @@ function Process() {
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseOne"
                       >
-                        <span className="num"> 1 / </span> <h3> Survey </h3>
+                        <span className="num"> 1 / </span> <h3> Experience </h3>
                       </button>
                     </div>
                     <div
@@ -33,11 +33,8 @@ function Process() {
                     >
                       <div className="accordion-body">
                         <div className="text">
-                          After surveying and obtaining the necessary
-                          information, we will create a preliminary design
-                          including technical drawings, 3D images of the
-                          interior and provide a 3D VR experience to help
-                          customers get a visual view of their project.
+                          With over a decade of expertise, we have the knowledge
+                          and skills to deliver exceptional results.
                         </div>
                       </div>
                     </div>
@@ -50,7 +47,8 @@ function Process() {
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseTwo"
                       >
-                        <span className="num"> 2 / </span> <h3> Design </h3>
+                        <span className="num"> 2 / </span>{" "}
+                        <h3> Custom Solution </h3>
                       </button>
                     </div>
                     <div
@@ -60,11 +58,8 @@ function Process() {
                     >
                       <div className="accordion-body">
                         <div className="text">
-                          After surveying and obtaining the necessary
-                          information, we will create a preliminary design
-                          including technical drawings, 3D images of the
-                          interior and provide a 3D VR experience to help
-                          customers get a visual view of their project.
+                          Every home is unique, and we tailor our solutions to
+                          meet your specific needs and preferences.
                         </div>
                       </div>
                     </div>
@@ -77,7 +72,8 @@ function Process() {
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseThree"
                       >
-                        <span className="num"> 3 / </span> <h3> Implement </h3>
+                        <span className="num"> 3 / </span>{" "}
+                        <h3> Quality Products </h3>
                       </button>
                     </div>
                     <div
@@ -87,11 +83,8 @@ function Process() {
                     >
                       <div className="accordion-body">
                         <div className="text">
-                          After surveying and obtaining the necessary
-                          information, we will create a preliminary design
-                          including technical drawings, 3D images of the
-                          interior and provide a 3D VR experience to help
-                          customers get a visual view of their project.
+                          We partner with leading brands to provide top-quality
+                          products that guarantee performance and reliability.
                         </div>
                       </div>
                     </div>
@@ -104,7 +97,8 @@ function Process() {
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseFour"
                       >
-                        <span className="num"> 4 / </span> <h3> Handover </h3>
+                        <span className="num"> 4 / </span>{" "}
+                        <h3> Professional Installation </h3>
                       </button>
                     </div>
                     <div
@@ -114,11 +108,8 @@ function Process() {
                     >
                       <div className="accordion-body">
                         <div className="text">
-                          After surveying and obtaining the necessary
-                          information, we will create a preliminary design
-                          including technical drawings, 3D images of the
-                          interior and provide a 3D VR experience to help
-                          customers get a visual view of their project.
+                          Our team of trained technicians ensures seamless
+                          installation and setup for a hassle-free experience.
                         </div>
                       </div>
                     </div>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function ContactForm() {
   return (
@@ -8,10 +8,10 @@ function ContactForm() {
           <div className="col-lg-4">
             <div className="info wow fadeInUp slow" data-wow-delay="0.2s">
               <h3 className="fsz-45 fw-500 mb-80">
-                Let us helps build your dream!
+                Let us help build your dreams!
               </h3>
               <p className="fsz-14 color-666 mt-15">
-                Your email address will not be published. <br /> Required fields
+                Your email address will not be shared. <br /> Required fields
                 are marked <span className="text-danger"> * </span>
               </p>
             </div>
@@ -26,7 +26,7 @@ function ContactForm() {
                 <div className="col-lg-6">
                   <div className="form-group mb-30">
                     <label htmlFor="">
-                      Full name <span className="color-orange1"> * </span>
+                      Full Name <span className="color-orange1"> * </span>
                     </label>
                     <input
                       type="text"
@@ -38,7 +38,7 @@ function ContactForm() {
                 <div className="col-lg-6">
                   <div className="form-group mb-30">
                     <label htmlFor="">
-                      email address <span className="color-orange1">*</span>
+                      Email Address <span className="color-orange1">*</span>
                     </label>
                     <input
                       type="text"
@@ -50,7 +50,7 @@ function ContactForm() {
                 <div className="col-lg-6">
                   <div className="form-group mb-30">
                     <label htmlFor="">
-                      Phone <span className="color-999"> (optional) </span>
+                      Phone <span className="color-999"> (Required) </span>
                     </label>
                     <input
                       type="text"
@@ -62,18 +62,20 @@ function ContactForm() {
                 <div className="col-lg-6">
                   <div className="form-group mb-30">
                     <label htmlFor="">
-                      subject <span className="color-orange1"> * </span>
+                      Subject <span className="color-orange1"> * </span>
                     </label>
                     <select name="" id="" className="form-select form-control">
                       <option value=""> Select a subject </option>
-                      <option value=""> subject 1 </option>
-                      <option value=""> subject 2 </option>
+                      <option value=""> Automation </option>
+                      <option value=""> Home Theater </option>
+                      <option value=""> Wifi </option>
+                      <option value=""> CCTV </option>
                     </select>
                   </div>
                 </div>
                 <div className="col-lg-12">
                   <div className="form-group mb-30">
-                    <label htmlFor=""> message </label>
+                    <label htmlFor=""> Message </label>
                     <textarea
                       rows="6"
                       placeholder="Write your message here"
@@ -92,7 +94,7 @@ function ContactForm() {
                 </span>
               </a>
               <p className="fsz-12 color-666 mt-20">
-                By summiting, i’m agree to the
+                By summiting, I agree to the
                 <a href="#" className="color-000 text-decoration-underline">
                   Terms & Conditions
                 </a>

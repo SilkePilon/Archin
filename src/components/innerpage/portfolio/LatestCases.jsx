@@ -1,27 +1,27 @@
-'use client';
-import React, { useEffect, useRef, useState } from 'react';
-import data from '../../../data/innerpages/portfolio/latestcases';
-import mixitup from 'mixitup';
+"use client";
+import React, { useEffect, useRef, useState } from "react";
+import data from "../../../data/innerpages/portfolio/latestcases";
+import mixitup from "mixitup";
 function LatestCases() {
-  const [activeFilter, setActiveFilter] = useState('All');
+  const [activeFilter, setActiveFilter] = useState("All");
   const mixitupContainerRef = useRef(null);
 
   useEffect(() => {
     const initializeMixitup = () => {
       mixitup(mixitupContainerRef.current, {
         load: {
-          sort: 'order:asc',
+          sort: "order:asc",
         },
         animation: {
           duration: 700,
         },
         classNames: {
-          block: 'filter',
-          elementFilter: 'filter-btn',
-          elementSort: 'sort-btn',
+          block: "filter",
+          elementFilter: "filter-btn",
+          elementSort: "sort-btn",
         },
         selectors: {
-          target: '.mix-item',
+          target: ".mix-item",
         },
       });
     };
@@ -32,14 +32,14 @@ function LatestCases() {
     setActiveFilter(filter);
 
     // Remove 'active' class from all filter buttons
-    document.querySelectorAll('.filter-btn').forEach((btn) => {
-      btn.classList.remove('active');
+    document.querySelectorAll(".filter-btn").forEach((btn) => {
+      btn.classList.remove("active");
     });
 
     // Add 'active' class to the clicked filter button, if it exists
     const clickedButton = document.querySelector(`[data-filter="${filter}"]`);
     if (clickedButton) {
-      clickedButton.classList.add('active');
+      clickedButton.classList.add("active");
     }
   };
 
@@ -48,7 +48,7 @@ function LatestCases() {
       <div className="container">
         <div className="content">
           <h3 className="fsz-45 text-capitalize mb-90 js-splittext-lines">
-            Latest Cases
+            Latest Projects
           </h3>
           <div className="cases">
             <div
@@ -57,9 +57,9 @@ function LatestCases() {
             >
               <div className="links">
                 <a
-                  onClick={() => handleFilterClick('All')}
+                  onClick={() => handleFilterClick("All")}
                   className={`filter-btn ${
-                    activeFilter === 'All' ? 'active' : ''
+                    activeFilter === "All" ? "active" : ""
                   }`}
                   href="#0"
                   data-filter="*"
@@ -68,43 +68,43 @@ function LatestCases() {
                 </a>
                 <a
                   href="#0"
-                  onClick={() => handleFilterClick('Architecture')}
+                  onClick={() => handleFilterClick("Architecture")}
                   className={`filter-btn ${
-                    activeFilter === 'Architecture' ? 'active' : ''
+                    activeFilter === "Architecture" ? "active" : ""
                   }`}
                   data-filter=".Architecture"
                 >
-                  Architecture
+                  Automation
                 </a>
                 <a
                   href="#0"
-                  onClick={() => handleFilterClick('Interior')}
+                  onClick={() => handleFilterClick("Interior")}
                   className={`filter-btn ${
-                    activeFilter === 'Interior' ? 'active' : ''
+                    activeFilter === "Interior" ? "active" : ""
                   }`}
                   data-filter=".Interior"
                 >
-                  Interior
+                  Home Theater
                 </a>
                 <a
                   href="#0"
-                  onClick={() => handleFilterClick('Landscape')}
+                  onClick={() => handleFilterClick("Landscape")}
                   className={`filter-btn ${
-                    activeFilter === 'Landscape' ? 'active' : ''
+                    activeFilter === "Landscape" ? "active" : ""
                   }`}
                   data-filter=".Landscape"
                 >
-                  Landscape
+                  Wifi Networking
                 </a>
                 <a
                   href="#0"
-                  onClick={() => handleFilterClick('Furniture')}
+                  onClick={() => handleFilterClick("Furniture")}
                   className={`filter-btn ${
-                    activeFilter === 'Furniture' ? 'active' : ''
+                    activeFilter === "Furniture" ? "active" : ""
                   }`}
                   data-filter=".Furniture"
                 >
-                  Furniture
+                  CCTV Surveillance
                 </a>
               </div>
             </div>
@@ -121,9 +121,9 @@ function LatestCases() {
                       </a>
                       <div className="info">
                         <div className="tags mb-30">
-                          <a href="#"> {item.subTitle.split('<br />')[0]} </a>
-                          {item.subTitle.split('<br />')[1] && (
-                            <a href="#"> {item.subTitle.split('<br />')[1]} </a>
+                          <a href="#"> {item.subTitle.split("<br />")[0]} </a>
+                          {item.subTitle.split("<br />")[1] && (
+                            <a href="#"> {item.subTitle.split("<br />")[1]} </a>
                           )}
                         </div>
                         <h3 className="title fsz-35 mb-20">
@@ -132,8 +132,8 @@ function LatestCases() {
                           </a>
                         </h3>
                         <div className="text color-666">
-                          {item.desc.split('<br />')[0]}
-                          <br /> {item.desc.split('<br />')[1]}
+                          {item.desc.split("<br />")[0]}
+                          <br /> {item.desc.split("<br />")[1]}
                         </div>
                       </div>
                     </div>

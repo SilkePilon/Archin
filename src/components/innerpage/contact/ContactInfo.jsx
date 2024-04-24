@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function ContactInfo() {
   return (
@@ -10,23 +10,27 @@ function ContactInfo() {
               <div className="row">
                 <div className="col-lg-6">
                   <div className="item mt-50">
-                    <h6 className="fsz-24 mb-15 fw-bold"> Boston, MA </h6>
+                    <h6 className="fsz-24 mb-15 fw-bold"> Gurgaon, Haryana </h6>
                     <ul className="color-666 lh-6">
                       <li>
-                        <a href="#"> 49 Brimmer St, Boston, MA 02108 </a>
+                        <a href="#">
+                          {" "}
+                          SF-41, 2nd Floor, Omaxe Celebration mall, sector 48,
+                          Gurgaon, Haryana, 122001{" "}
+                        </a>
                       </li>
                       <li>
-                        <a href="#"> hello@archin.co </a>
+                        <a href="#"> Ishan@comfyhomz.com </a>
                       </li>
                       <li>
-                        <a href="#"> (054) 3256 78 87 </a>
+                        <a href="#"> +91 9899911244/+919899912244 </a>
                       </li>
                     </ul>
                   </div>
                 </div>
-                <div className="col-lg-6">
+                {/* <div className="col-lg-6">
                   <div className="item mt-50">
-                    <h6 className="fsz-24 mb-15 fw-bold"> Portland, OR </h6>
+                    <h6 className="fsz-24 mb-15 fw-bold"> Gurgaon, Haryana </h6>
                     <ul className="color-666 lh-6">
                       <li>
                         <a href="#">2221 Sw Broadway Dr, Portland, OR 97201</a>
@@ -39,7 +43,7 @@ function ContactInfo() {
                       </li>
                     </ul>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
