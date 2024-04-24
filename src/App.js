@@ -25,7 +25,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home1 />} />
+        <Route index element={<Home1 />} />
         {/* <Route path="/home1" element={<Home1 />} /> */}
         {/* <Route path="/home1-rtl" element={<Home1RTL />} />
         <Route path="/home2" element={<Home2 />} />
