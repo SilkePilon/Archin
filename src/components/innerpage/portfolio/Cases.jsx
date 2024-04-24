@@ -1,11 +1,11 @@
-import React from 'react';
-import data from '../../../data/innerpages/portfolio/case';
+import React from "react";
+import data from "../../../data/innerpages/portfolio/case";
 function Cases() {
   return (
     <section className="tc-featured-cases-style1">
       <div className="content">
         <h3 className="fsz-45 text-capitalize mb-60 js-splittext-lines">
-          featured cases
+          Featured Cases
         </h3>
         <ul
           className="nav nav-pills mb-50 wow fadeInUp slow"
@@ -89,8 +89,8 @@ function Cases() {
                           </a>
                         </h3>
                         <div className="text color-666">
-                          {item.desc.split('<br />')[0]} <br />{' '}
-                          {item.desc.split('<br />')[2]}
+                          {item.desc.split("<br />")[0]} <br />{" "}
+                          {item.desc.split("<br />")[2]}
                         </div>
                       </div>
                     </div>
@@ -119,8 +119,8 @@ function Cases() {
                           </a>
                         </h3>
                         <div className="text color-666">
-                          {item.desc.split('<br />')[0]} <br />{' '}
-                          {item.desc.split('<br />')[2]}
+                          {item.desc.split("<br />")[0]} <br />{" "}
+                          {item.desc.split("<br />")[2]}
                         </div>
                       </div>
                     </div>
