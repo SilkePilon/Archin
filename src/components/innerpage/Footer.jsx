@@ -49,7 +49,7 @@ function Footer() {
                     <a href="#"> Ishan@comfyhomz.com </a>
                   </li>
                   <li>
-                    <a href="#"> +91 9899911244/+919899912244 </a>
+                    <a href="#"> +919899912244 </a>
                   </li>
                 </ul>
               </div>
@@ -85,7 +85,7 @@ function Footer() {
                     <a href="#"> Ishan@comfyhomz.com </a>
                   </li>
                   <li>
-                    <a href="#"> +91 9899911244/+919899912244 </a>
+                    <a href="#"> +919899912244 </a>
                   </li>
                 </ul>
               </div>

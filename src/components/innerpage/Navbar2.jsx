@@ -4,7 +4,7 @@ function Navbar2() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light inner-navbar-style1">
       <div className="container-fluid">
-        <a className="navbar-brand me-lg-5" href="#">
+        <a className="navbar-brand me-lg-5" href="/">
           <img src="/innerpages/assets/img/logo.png" alt="" className="logo" />
         </a>
         <button

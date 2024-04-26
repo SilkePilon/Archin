@@ -44,14 +44,14 @@ function Experience() {
           </div>
           <div className="col-lg-2">
             <div className="rotate-txt justify-content-lg-end">
-              <ul>
+              {/* <ul>
                 <li>
                   <a href="#"> Ishan@comfyhomz.com </a>
                 </li>
                 <li>
-                  <a href="#"> +91 9899911244/+919899912244 </a>
+                  <a href="#"> +919899912244 </a>
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </div>
         </div>

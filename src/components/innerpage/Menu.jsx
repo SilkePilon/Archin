@@ -10,7 +10,7 @@ function Menu() {
           <div className="main_links">
             <ul>
               <li>
-                <a href="#" className="main_link">
+                <a href="/" className="main_link">
                   Home
                 </a>
               </li>

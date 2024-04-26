@@ -4,8 +4,12 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark inner-navbar-style1">
       <div className="container-fluid">
-        <a className="navbar-brand me-lg-5" href="#">
-          <img src="/innerpages/assets/img/logo.png" alt="" className="logo" />
+        <a className="navbar-brand me-lg-5" href="/">
+          <img
+            src="/innerpages/assets/img/logo_wh.png"
+            alt=""
+            className="logo"
+          />
         </a>
         <button
           className="navbar-toggler"

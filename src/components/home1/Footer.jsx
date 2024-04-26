@@ -49,7 +49,7 @@ function Footer() {
                     <a href="#"> Ishan@comfyhomz.com </a>
                   </li>
                   <li>
-                    <a href="#"> +91 9899911244/+919899912244 </a>
+                    <a href="#"> +919899912244 </a>
                   </li>
                 </ul>
               </div>
@@ -85,7 +85,7 @@ function Footer() {
                     <a href="#"> Ishan@comfyhomz.com </a>
                   </li>
                   <li>
-                    <a href="#"> +91 9899911244/+919899912244 </a>
+                    <a href="#"> +919899912244 </a>
                   </li>
                 </ul>
               </div>
@@ -113,10 +113,10 @@ function Footer() {
             <div className="col-lg-6">
               <div className="foot-links mt-4 mt-lg-0">
                 <a href="/"> Home </a>
-                <a href="./pages/innerpages/services"> Services </a>
-                <a href="./pages/innerpages/about"> About </a>
-                <a href="./pages/innerpages/portfolio"> Gallery </a>
-                <a href="./pages/innerpages/contact"> Contact </a>
+                <a href="/services"> Services </a>
+                <a href="/about"> About </a>
+                <a href="/portfolio"> Gallery </a>
+                <a href="/contact"> Contact </a>
               </div>
             </div>
           </div>
