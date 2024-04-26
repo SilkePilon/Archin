@@ -107,7 +107,7 @@ function Footer() {
           <div className="row">
             <div className="col-lg-6">
               <p className="fsz-13">
-                © 2024 Comfy Homz Solutions . All Right Reserved
+                © 2024 Comfy Homz Solutions. All Right Reserved.
               </p>
             </div>
             <div className="col-lg-6">

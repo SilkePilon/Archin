@@ -1,42 +1,52 @@
 [
   {
-    "img": "/innerpages/assets/img/logos/logo1.svg",
-    "title": "Top 5 Interior Design Inspiration 2023",
-    "subTitle": "ABERY Apartment Master Bedroom"
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Bang_and_Olufsen_logo.svg/452px-Bang_and_Olufsen_logo.svg.png",
+    "title": "Bang & Olufsen",
+    "subTitle": ""
   },
   {
-    "img": "/innerpages/assets/img/logos/logo2.svg",
-    "title": "Top 5 Interior Design Inspiration 2023",
-    "subTitle": "ABERY Apartment Master Bedroom"
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Hikvision_logo.svg/800px-Hikvision_logo.svg.png",
+    "title": "HK Vision",
+    "subTitle": ""
   },
   {
-    "img": "/innerpages/assets/img/logos/logo3.svg",
-    "title": "Top 10 Agency Use Sustainable Material",
-    "subTitle": "Neoclassical Sofa"
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Logo_of_JBL.svg/933px-Logo_of_JBL.svg.png",
+    "title": "JBL",
+    "subTitle": ""
   },
   {
-    "img": "/innerpages/assets/img/logos/logo4.svg",
-    "title": "Winner Best CGI Artirst 2022",
-    "subTitle": "Boston CGI"
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/BenQ-Logo.svg/370px-BenQ-Logo.svg.png",
+    "title": "BenQ",
+    "subTitle": ""
   },
   {
-    "img": "/innerpages/assets/img/logos/logo5.svg",
-    "title": "Winner UID of The Year in 2020",
-    "subTitle": "Bristo Restaurant"
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Bose_logo.svg/215px-Bose_logo.svg.png",
+    "title": "Bose",
+    "subTitle": ""
   },
   {
-    "img": "/innerpages/assets/img/logos/logo6.svg",
-    "title": "Top 5 Excellent Furniture Store USA 2020",
-    "subTitle": "Wooden Furniture"
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Epson_logo.svg/300px-Epson_logo.svg.png",
+    "title": "EPSON",
+    "subTitle": ""
   },
   {
-    "img": "/innerpages/assets/img/logos/logo7.svg",
-    "title": "Top 5 Excellent Furniture Store USA 2020",
-    "subTitle": "Wooden Furniture"
+    "img": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Bowers_%26_Wilkins_%28logo%29.svg/512px-Bowers_%26_Wilkins_%28logo%29.svg.png?20220127040335",
+    "title": "Bowers & Wilkins",
+    "subTitle": ""
   },
   {
-    "img": "/innerpages/assets/img/logos/logo8.svg",
-    "title": "Top 5 Excellent Furniture Store USA 2020",
-    "subTitle": "Wooden Furniture"
+    "img": "https://asset.brandfetch.io/idC9eNBR1u/idfc7Ht-2X.png?updated=1710113670418",
+    "title": "Polk Audio",
+    "subTitle": ""
+  },
+  {
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Definitive_Logo_full.svg/648px-Definitive_Logo_full.svg.png",
+    "title": "Definitive Technology",
+    "subTitle": ""
+  },
+  {
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Yamaha_logo.svg/799px-Yamaha_logo.svg.png",
+    "title": "Yamaha",
+    "subTitle": ""
   }
 ]

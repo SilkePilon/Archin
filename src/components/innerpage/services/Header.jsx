@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function Header() {
   return (
@@ -28,9 +28,9 @@ function Header() {
                       <div className="row">
                         <div className="col-6">
                           <h2 className="num sub-font">
-                            <span className="counter">92</span>%
+                            <span className="counter">350</span>+
                           </h2>
-                          <p> Clients Satisfied </p>
+                          <p> Homes Automated </p>
                         </div>
                         <div className="col-6">
                           <h2 className="num sub-font">

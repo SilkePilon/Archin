@@ -180,7 +180,7 @@
   margin-inline-end: 100px;
 }
 .tc-navbar-style1 .content .navbar-nav .nav-link {
-  font-size: 14px;
+  font-size: 1.2vw;
   color: #fff;
   opacity: 1;
   margin: 0 20px;
@@ -1105,7 +1105,7 @@
   clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
 }
 .tc-chat-style1 .xl-text {
-  font-size: 120px;
+  font-size: 3vw;
   font-weight: 500;
   position: relative;
   z-index: 10;

@@ -1,5 +1,5 @@
-import React from 'react';
-import data from '../../../data/innerpages/about/awards';
+import React from "react";
+import data from "../../../data/innerpages/about/awards";
 function Awards() {
   return (
     <section className="tc-awards-style2">
@@ -7,7 +7,7 @@ function Awards() {
         <h2 className="fsz-45 fw-500 text-center mb-30">
           Featured
           <span className="sub-font fst-italic color-orange1 fw-400">
-            awards
+            Brands
           </span>
         </h2>
         <div className="awards">

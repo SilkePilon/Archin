@@ -94,7 +94,7 @@ function ContactForm() {
                 </span>
               </a>
               <p className="fsz-12 color-666 mt-20">
-                By summiting, I agree to the
+                By submitting, I agree to the
                 <a href="#" className="color-000 text-decoration-underline">
                   Terms & Conditions
                 </a>
