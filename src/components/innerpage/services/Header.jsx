@@ -28,7 +28,7 @@ function Header() {
                       <div className="row">
                         <div className="col-6">
                           <h2 className="num sub-font">
-                            <span className="counter">350</span>+
+                            <span className="counter">350+</span>
                           </h2>
                           <p> Homes Automated </p>
                         </div>
