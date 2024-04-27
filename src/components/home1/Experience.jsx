@@ -33,7 +33,7 @@ function Experience() {
                 automation, home theaters, WiFi networking, and CCTV systems.
               </div>
               <a
-                href="./innerpage/pages/services"
+                href="/services"
                 className="butn rounded-pill mt-50 hover-bg-black bg-white"
               >
                 <span>

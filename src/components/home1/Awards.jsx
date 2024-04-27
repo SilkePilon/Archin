@@ -31,7 +31,10 @@ function Awards() {
             ))}
           </div>
           <div className="text-center mt-100 mb-40">
-            <a href="#" className="butn border rounded-pill hover-bg-orange1">
+            <a
+              href="/about"
+              className="butn border rounded-pill hover-bg-orange1"
+            >
               <span>
                 Show More <i className="small ms-1 la la-angle-down"></i>
               </span>

@@ -14,7 +14,7 @@ function Header() {
                 <div className="award-wrapper">
                   <p> An Award Winning Studio </p>
                   <span className="line"></span>
-                  <p> 2020 </p>
+                  <p> Est. 2012 </p>
                 </div>
               </div>
               <div className="col-lg-4">

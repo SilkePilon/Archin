@@ -40,7 +40,7 @@ function Header() {
             </div>
             <div className="row ps-lg-5">
               <div className="col-lg-6">
-                <h5 className="fsz-30 mt-30 fw-400">
+                <h5 className="fsz-25 mt-30 fw-400">
                   Home Automation and Security <br /> Studio
                 </h5>
                 <h1> About Us </h1>
@@ -85,7 +85,7 @@ function Header() {
           </li>
         </ul>
       </div>
-      <div className="float-icons">
+      {/* <div className="float-icons">
         <ul>
           <li>
             <a href="#">
@@ -113,7 +113,7 @@ function Header() {
             </a>
           </li>
         </ul>
-      </div>
+      </div> */}
     </header>
   );
 }

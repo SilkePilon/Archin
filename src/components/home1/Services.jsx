@@ -12,7 +12,7 @@ function Services() {
             <div className="row">
               <div className="col-lg-3">
                 <a
-                  href="#"
+                  href="/services"
                   className="service-card wow fadeInUp"
                   data-wow-delay="0.2s"
                 >
@@ -39,7 +39,7 @@ function Services() {
               </div>
               <div className="col-lg-3">
                 <a
-                  href="#"
+                  href="/services"
                   className="service-card mt-150 wow fadeInUp"
                   data-wow-delay="0.4s"
                 >
@@ -67,7 +67,7 @@ function Services() {
               </div>
               <div className="col-lg-3">
                 <a
-                  href="#"
+                  href="/services"
                   className="service-card wow fadeInUp"
                   data-wow-delay="0.6s"
                 >
@@ -95,7 +95,7 @@ function Services() {
               </div>
               <div className="col-lg-3">
                 <a
-                  href="#"
+                  href="/services"
                   className="service-card mt-150 wow fadeInUp"
                   data-wow-delay="0.8s"
                 >
@@ -124,7 +124,7 @@ function Services() {
           </div>
           <div className="text-center">
             <a
-              href="#"
+              href="https://api.whatsapp.com/send/?phone=919899912244"
               className="butn rounded-pill mt-80 hover-bg-black bg-orange1 text-white"
             >
               <span>

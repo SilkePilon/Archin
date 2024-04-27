@@ -1,5 +1,5 @@
-import React from 'react';
-import data1 from '../../data/home1/projects/projects1';
+import React from "react";
+import data1 from "../../data/home1/projects/projects1";
 function Projects() {
   return (
     <section className="tc-projects-style1">
@@ -70,7 +70,7 @@ function Projects() {
             </div>
             <div className="col-lg-3 mt-4 mt-lg-0 text-lg-end">
               <a
-                href="#"
+                href="/portfolio"
                 className="butn border rounded-pill color-orange1 border-orange1 hover-bg-orange1"
               >
                 <span>

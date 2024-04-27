@@ -171,7 +171,7 @@
   width: 100px;
 }
 .inner-navbar-style1 .navbar-nav .nav-link {
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 600;
   color: #000;
   -webkit-margin-start: 30px;
@@ -1965,7 +1965,7 @@
   color: #fff;
 }
 .about-pg-style1 .tc-header-preview .slider-card .info h1 {
-  font-size: calc(8vw + 15px);
+  font-size: 6vw;
   font-weight: 500;
   line-height: 1;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
