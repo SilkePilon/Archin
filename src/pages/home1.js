@@ -21,6 +21,17 @@ function Home1() {
   return (
     <>
       <Helmet>
+        <title>
+          Comfy Homz Solution: Transforming Homes in Delhi, India Since 2012
+        </title>
+        <meta
+          name="description"
+          content="Welcome to Comfy Homz Solution! Your premier destination for home automation, home theater, wifi networking, and CCTV connections in Delhi, India. Experience the future of smart living with us."
+        />
+        <meta
+          name="keywords"
+          content="Comfy Homz Solution, home automation, home theater, wifi networking, CCTV connections, Delhi, India"
+        />
         <link
           rel="stylesheet"
           type="text/css"
