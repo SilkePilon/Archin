@@ -27,7 +27,10 @@ function Header() {
           <span className="num"> 12 </span>
         </div>
         <h1 style={{ color: "#C54C34" }}> Usance </h1>
-        <span className="float_txt js-title"> Interieurs </span>
+        <span style={{ color: "#2A2B2D" }} className="float_txt js-title">
+          {" "}
+          Interieurs{" "}
+        </span>
         <div className="info">
           <div className="row">
             <div className="col-lg-4">
