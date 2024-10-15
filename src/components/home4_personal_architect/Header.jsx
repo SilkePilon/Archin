@@ -19,12 +19,17 @@ function Header() {
               <text>
                 <textPath xlinkHref="#textcircle" textLength="900">
                   {" "}
-                  - years of experience - since 1991{" "}
+                  - Follow us on Insagram{" "}
                 </textPath>
               </text>
             </svg>
           </a>
-          <span className="num"> 12 </span>
+          <span className="num">
+            {" "}
+            <a href="https://www.instagram.com/usanceinterieurs/">
+              @usanceinterieurs
+            </a>{" "}
+          </span>
         </div>
         <h1 style={{ color: "#C54C34" }}> Usance </h1>
         <span style={{ color: "#2A2B2D" }} className="float_txt js-title">
