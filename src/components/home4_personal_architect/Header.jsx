@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function Header() {
   return (
@@ -18,16 +18,16 @@ function Header() {
               </defs>
               <text>
                 <textPath xlinkHref="#textcircle" textLength="900">
-                  {' '}
-                  - years of experience - since 1991{' '}
+                  {" "}
+                  - years of experience - since 1991{" "}
                 </textPath>
               </text>
             </svg>
           </a>
           <span className="num"> 12 </span>
         </div>
-        <h1> jorger clarkson </h1>
-        <span className="float_txt js-title"> Architect </span>
+        <h1 style={{ color: "#C54C34" }}> Usance </h1>
+        <span className="float_txt js-title"> Interieurs </span>
         <div className="info">
           <div className="row">
             <div className="col-lg-4">
@@ -57,28 +57,28 @@ function Header() {
                 href="#"
                 className="fsz-14 text-uppercase text-decoration-underline"
               >
-                {' '}
-                full profile{' '}
+                {" "}
+                full profile{" "}
               </a>
             </div>
             <div className="col-lg-2 offset-lg-1">
               <div className="social wow fadeInUp slow" data-wow-delay="0.6s">
                 <p className="fsz-12 text-uppercase color-999 mb-30">
-                  {' '}
-                  social{' '}
+                  {" "}
+                  social{" "}
                 </p>
                 <ul className="text-uppercase fsz-18 lh-6">
                   <li>
-                    {' '}
-                    <a href="#"> Instagram </a>{' '}
+                    {" "}
+                    <a href="#"> Instagram </a>{" "}
                   </li>
                   <li>
-                    {' '}
-                    <a href="#"> Linked </a>{' '}
+                    {" "}
+                    <a href="#"> Linked </a>{" "}
                   </li>
                   <li>
-                    {' '}
-                    <a href="#"> Behance </a>{' '}
+                    {" "}
+                    <a href="#"> Behance </a>{" "}
                   </li>
                 </ul>
               </div>
