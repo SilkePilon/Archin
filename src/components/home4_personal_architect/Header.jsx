@@ -6,7 +6,8 @@ function Header() {
       <div className="container">
         <div className="rotate-box" data-speed="1" data-lag="0.4">
           <a
-            href="#"
+            href="https://www.instagram.com/usanceinterieurs/"
+            target="_blank"
             className="rotate-circle fsz-35 rotate-text d-inline-block text-uppercase"
           >
             <svg className="textcircle" viewBox="0 0 500 500">
@@ -19,14 +20,17 @@ function Header() {
               <text>
                 <textPath xlinkHref="#textcircle" textLength="900">
                   {" "}
-                  - Follow us on Insagram{" "}
+                  - volg ons op instagram{" "}
                 </textPath>
               </text>
             </svg>
           </a>
           <span className="num">
             {" "}
-            <a href="https://www.instagram.com/usanceinterieurs/">
+            <a
+              target="_blank"
+              href="https://www.instagram.com/usanceinterieurs/"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="8vh"
@@ -57,29 +61,91 @@ function Header() {
                 className="img mb-4 mb-lg-0 wow fadeInUp slow"
                 data-wow-delay="0.2s"
               >
-                <img
-                  src="/home4_personal_architect/assets/img/user1.jpg"
-                  alt=""
-                  className="img-cover"
-                />
+                <div
+                  id="myCarousel"
+                  class="carousel slide"
+                  data-ride="carousel"
+                >
+                  <ol class="carousel-indicators">
+                    <li
+                      data-target="#myCarousel"
+                      data-slide-to="0"
+                      class="active"
+                    ></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                  </ol>
+
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img
+                        src="/home4_personal_architect/assets/img/header.jpg"
+                        alt=""
+                        style={{ width: "100vw", borderRadius: "0.75rem" }}
+                        className=""
+                      />
+                    </div>
+
+                    <div class="item">
+                      <img
+                        src="/home4_personal_architect/assets/img/header.jpg"
+                        alt=""
+                        style={{ width: "100vw", borderRadius: "0.75rem" }}
+                        className=""
+                      />
+                    </div>
+
+                    <div class="item">
+                      <img
+                        src="/home4_personal_architect/assets/img/header.jpg"
+                        alt=""
+                        style={{ width: "100vw", borderRadius: "0.75rem" }}
+                        className=""
+                      />
+                    </div>
+                  </div>
+
+                  <a
+                    class="left carousel-control"
+                    href="#myCarousel"
+                    data-slide="prev"
+                  >
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a
+                    class="right carousel-control"
+                    href="#myCarousel"
+                    data-slide="next"
+                  >
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
               </div>
             </div>
             <div className="col-lg-5 wow fadeInUp slow" data-wow-delay="0.4s">
               <div className="text fsz-24 mb-30">
-                Een interieur dat met liefde en aandacht voor detail en
-                kwaliteit tot stand is gekomen heeft een duurzaam karakter. Uw
-                woongenot staat bij ons voorop!
+                'Wat betekent Usance eigenlijk?'. De vertaling van Wikipedia, de
+                vrije encyclopedie, klinkt als volgt: "usance: gewoonte.
+                utilitair: (Fr.: utilitaire) het nut beogend". En dit is nou
+                precies waar Usance voor staat! Usance Interieurs denkt met u
+                mee en zal altijd voor het interieur van uw woning, bedrijf,
+                winkel of product het nut als uitgangspunt nemen.
               </div>
               <div className="text fsz-24 mb-80">
-                The philosophy in my projects is to create a contemporary yet
-                timeless luxurious atmospher
+                Als duo vormen Dennis van den Dool en Mariska van der Velde
+                Usance Interieurs. Een mooi interieurontwerp maken kunnen vele.
+                Maar een op maat gemaakt advies waarin volledig op uw wensen en
+                eisen wordt ingespeeld, tot en met de realisatie, dat doet
+                Usance Interieurs uit gewoonte.
               </div>
               <a
-                href="#"
+                href="/about"
                 className="fsz-14 text-uppercase text-decoration-underline"
               >
                 {" "}
-                full profile{" "}
+                MEER OVER ONS{" "}
               </a>
             </div>
             <div className="col-lg-2 offset-lg-1">
@@ -91,15 +157,13 @@ function Header() {
                 <ul className="text-uppercase fsz-18 lh-6">
                   <li>
                     {" "}
-                    <a href="#"> Instagram </a>{" "}
-                  </li>
-                  <li>
-                    {" "}
-                    <a href="#"> Linked </a>{" "}
-                  </li>
-                  <li>
-                    {" "}
-                    <a href="#"> Behance </a>{" "}
+                    <a
+                      target="_blank"
+                      href="https://www.instagram.com/usanceinterieurs/"
+                    >
+                      {" "}
+                      Instagram{" "}
+                    </a>{" "}
                   </li>
                 </ul>
               </div>

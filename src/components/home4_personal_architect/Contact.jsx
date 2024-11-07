@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
 function Contact() {
-  return <section className="tc-contact-style4"></section>;
+  return <section className="tc-contact-style4">Contact</section>;
 }
 
 export default Contact;

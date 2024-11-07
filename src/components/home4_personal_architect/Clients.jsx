@@ -1,5 +1,5 @@
-import React from 'react';
-import data from '../../data/hom4_personal_architect/clients';
+import React from "react";
+import data from "../../data/hom4_personal_architect/clients";
 function Clients() {
   return (
     <section className="tc-clients-style4">
@@ -67,6 +67,7 @@ function Clients() {
         src="/home4_personal_architect/assets/img/globe.png"
         alt=""
         className="globe rotate-center"
+        style={{ color: "white" }}
       />
     </section>
   );

@@ -10,20 +10,25 @@ function ContactInfo() {
               <div className="row">
                 <div className="col-lg-6">
                   <div className="item mt-50">
-                    <h6 className="fsz-24 mb-15 fw-bold"> Gurgaon, Haryana </h6>
+                    <h6 className="fsz-24 mb-15 fw-bold"> Mariska, Dennis </h6>
                     <ul className="color-666 lh-6">
                       <li>
-                        <a href="#">
+                        <a href="#"> Zuiderzeestraatweg West 12A </a>
+                      </li>
+                      <li>
+                        <a href="mail:info@usanceinterieurs.nl">
                           {" "}
-                          SF-41, 2nd Floor, Omaxe Celebration mall, sector 48,
-                          Gurgaon, Haryana, 122001{" "}
+                          info@usanceinterieurs.nl{" "}
                         </a>
                       </li>
                       <li>
-                        <a href="#"> Ishan@comfyhomz.com </a>
-                      </li>
-                      <li>
-                        <a href="#"> +91 9899911244/+919899912244 </a>
+                        <a
+                          style={{ paddingRight: "15px" }}
+                          href="tel:+31-6-30305760"
+                        >
+                          Mariska - 06 30305760
+                        </a>{" "}
+                        <a href="tel:+31-6-30211174">Dennis - 06 30211174</a>
                       </li>
                     </ul>
                   </div>
@@ -49,21 +54,24 @@ function ContactInfo() {
           </div>
           <div className="col-lg-6">
             <div className="social-icons mt-50 text-lg-end">
-              <a href="#">
+              {/* <a href="#">
                 <i className="fab fa-x-twitter"></i>
               </a>
               <a href="#">
                 <i className="fab fa-facebook-f"></i>
-              </a>
-              <a href="#">
+              </a> */}
+              <a
+                target="_blank"
+                href="https://www.instagram.com/usanceinterieurs/"
+              >
                 <i className="fab fa-instagram"></i>
               </a>
-              <a href="#">
+              {/* <a href="#">
                 <i className="fab fa-linkedin-in"></i>
               </a>
               <a href="#">
                 <i className="fab fa-youtube"></i>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
