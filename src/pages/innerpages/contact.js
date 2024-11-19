@@ -2,7 +2,7 @@ import React from "react";
 import Loader from "../../components/common/Loader";
 import Footer from "../../components/innerpage/Footer";
 import Menu from "../../components/innerpage/Menu";
-import Navbar2 from "../../components/innerpage/Navbar2";
+import Navbar from "../../components/home4_personal_architect/Navbar";
 import StartButton from "../../components/home5_residence/StartButton";
 import Header from "../../components/innerpage/contact/Header";
 import ContactInfo from "../../components/innerpage/contact/ContactInfo";
@@ -31,6 +31,11 @@ function ContactPage() {
           type="text/css"
           href="/innerpages/assets/css/innerpages.css"
         />
+        <link
+          rel="stylesheet"
+          type="text/css"
+          href="/home4_personal_architect/assets/css/home_4_style.css"
+        />
         <script src="/common/assets/js/common_js.js"></script>
         <script src="/innerpages/assets/js/innerpages.js"></script>
       </Helmet>
@@ -38,7 +43,7 @@ function ContactPage() {
         <Loader />
         <Menu />
         <div className="smooth-scroll-content" id="scrollsmoother-container">
-          <Navbar2 />
+          <Navbar />
           <Header />
 
           <main>

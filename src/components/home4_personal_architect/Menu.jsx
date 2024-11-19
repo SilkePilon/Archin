@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function Menu() {
   return (
@@ -16,19 +16,19 @@ function Menu() {
               </li>
               <li>
                 <a href="#" className="main_link">
-                  studio
+                  Over Ons
                 </a>
               </li>
               <li>
                 <a href="#" className="main_link">
-                  cases
+                  Ons Werk
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#" className="main_link">
                   news
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a href="#" className="main_link">
                   contact

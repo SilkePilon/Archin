@@ -4,22 +4,9 @@ function Header() {
   return (
     <header className="tc-header-style4">
       <div className="container">
-        <div className="rotate-box" data-speed="1" data-lag="0.4">
-          ons aug24
-        </div>
-        <h1 style={{ color: "#C54C34" }}> Over Ons</h1>
-        <span
-          style={{
-            color: "#2A2B2D",
-            fontSize: "50px",
-            marginLeft: "800px",
-            marginTop: "20px",
-          }}
-          className="float_txt js-title"
-        >
-          {" "}
-          Mariska & Dennis{" "}
-        </span>
+        <div className="rotate-box" data-speed="1" data-lag="0.4"></div>
+        <h1 style={{ color: "#C54C34" }}>Over Ons</h1>
+
         <div className="info">
           <div className="row">
             <div className="col-lg-4">

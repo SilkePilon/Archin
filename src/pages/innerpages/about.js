@@ -31,12 +31,12 @@ function Home4() {
           <Navbar />
           <Header />
           <main>
-            <Portfolio />
+            {/* <Portfolio />
             <Clients />
             <Career />
             <Insatgram />
-            <Blog />
-            <Contact />
+            <Blog /> */}
+            {/* <Contact /> */}
           </main>
           <Footer />
         </div>

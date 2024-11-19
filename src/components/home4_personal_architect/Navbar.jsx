@@ -148,10 +148,10 @@ function Navbar() {
         </div>
         <div className="col-lg-7">
           <div className="nav-side text-lg-end mt-4 mt-lg-0">
-            <a href="#">
+            {/* <a href="#">
               <i className="la la-envelope me-2 fs-5"></i>
               <span> Get Quote </span>
-            </a>
+            </a> */}
             <a href="#" className="side_menu_btn ms-50">
               <i className="la la-grip-lines fs-5"></i>
             </a>

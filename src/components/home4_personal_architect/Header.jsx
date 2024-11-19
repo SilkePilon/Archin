@@ -26,7 +26,6 @@ function Header() {
             </svg>
           </a>
           <span className="num">
-            {" "}
             <a
               target="_blank"
               href="https://www.instagram.com/usanceinterieurs/"
@@ -46,7 +45,7 @@ function Header() {
                   />
                 </g>
               </svg>
-            </a>{" "}
+            </a>
           </span>
         </div>
         <h1 style={{ color: "#C54C34" }}> Usance </h1>
@@ -61,67 +60,74 @@ function Header() {
                 className="img mb-4 mb-lg-0 wow fadeInUp slow"
                 data-wow-delay="0.2s"
               >
-                <div
-                  id="myCarousel"
-                  class="carousel slide"
-                  data-ride="carousel"
-                >
-                  <ol class="carousel-indicators">
-                    <li
-                      data-target="#myCarousel"
-                      data-slide-to="0"
-                      class="active"
-                    ></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                  </ol>
-
-                  <div class="carousel-inner">
-                    <div class="item active">
+                <center>
+                  <div className="image-carousel" style={{ marginLeft: "4vw" }}>
+                    <div className="carousel-container">
                       <img
                         src="/home4_personal_architect/assets/img/header.jpg"
                         alt=""
-                        style={{ width: "100vw", borderRadius: "0.75rem" }}
-                        className=""
+                        className="carousel-image"
                       />
-                    </div>
-
-                    <div class="item">
                       <img
                         src="/home4_personal_architect/assets/img/header.jpg"
                         alt=""
-                        style={{ width: "100vw", borderRadius: "0.75rem" }}
-                        className=""
+                        className="carousel-image"
                       />
-                    </div>
-
-                    <div class="item">
                       <img
                         src="/home4_personal_architect/assets/img/header.jpg"
                         alt=""
-                        style={{ width: "100vw", borderRadius: "0.75rem" }}
-                        className=""
+                        className="carousel-image"
                       />
                     </div>
                   </div>
+                </center>
+                <style jsx>{`
+                  .image-carousel {
+                    width: 100%;
+                    height: 100%;
+                    position: relative;
+                    overflow: hidden;
+                    border-radius: 0.75rem;
+                  }
 
-                  <a
-                    class="left carousel-control"
-                    href="#myCarousel"
-                    data-slide="prev"
-                  >
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a
-                    class="right carousel-control"
-                    href="#myCarousel"
-                    data-slide="next"
-                  >
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                    <span class="sr-only">Next</span>
-                  </a>
-                </div>
+                  .carousel-container {
+                    display: flex;
+                    width: 300%;
+                    height: 100%;
+                    animation: slideShow 7.5s linear infinite;
+                  }
+
+                  .carousel-image {
+                    width: 33.333%;
+                    height: 100%;
+                    object-fit: cover;
+                    filter: grayscale(100%);
+                  }
+
+                  @keyframes slideShow {
+                    0% {
+                      transform: translateX(0);
+                    }
+                    28% {
+                      transform: translateX(0);
+                    }
+                    33% {
+                      transform: translateX(-33.333%);
+                    }
+                    61% {
+                      transform: translateX(-33.333%);
+                    }
+                    66% {
+                      transform: translateX(-66.666%);
+                    }
+                    94% {
+                      transform: translateX(-66.666%);
+                    }
+                    100% {
+                      transform: translateX(0);
+                    }
+                  }
+                `}</style>
               </div>
             </div>
             <div className="col-lg-5 wow fadeInUp slow" data-wow-delay="0.4s">
@@ -156,14 +162,13 @@ function Header() {
                 </p>
                 <ul className="text-uppercase fsz-18 lh-6">
                   <li>
-                    {" "}
                     <a
                       target="_blank"
                       href="https://www.instagram.com/usanceinterieurs/"
                     >
                       {" "}
                       Instagram{" "}
-                    </a>{" "}
+                    </a>
                   </li>
                 </ul>
               </div>
